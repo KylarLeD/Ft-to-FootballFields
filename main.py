@@ -10,7 +10,6 @@ def calculate():
 
 root = tk.Tk()
 root.title("Feet to Football Fields")
-root.iconphoto(True, tk.PhotoImage(file="icon.png"))
 root.geometry("400x200")
 title_label = tk.Label(root, text="Feet to Football Fields", font=("Arial", 18))
 title_label.pack(pady=10)
